@@ -3,24 +3,144 @@
     font-family: Roboto;
     
 }
+a {
+    color: #303030;
+    font-style: none;
+    text-decoration: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0
+}
+    
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color:  #a0d2eb;
+    margin: 0;
+    padding: 10px 460px;
+}
 
+.linksh {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px
 
+}
 
+.info {
+    display: flex;
+    padding: 50px 460px;
+    justify-content: space-between;
+    background-color: #e5eaf5;
+    border-top: 3px solid rgb(114, 114, 114) ;
+    border-bottom: 3px solid rgb(114, 114, 114) ;
+}
 
+.dog {
+    width: 800px;
+    height: 300px;
+    border-radius: 20px;
+    border: 8px solid #8458B3; 
+}
 
+.infoleft {
+    width: 600px;
+}
 
+.infoleft p {
+    font-size: 20px;
+    color: rgb(14, 13, 13);
+}
 
+button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #8458B3;
+    color: white;
+    border-radius: 7px;
+    font-size: 15px;
+}
 
+.randominfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
+.squares {
+    display: flex;
+    gap: 150px;
+    text-align: center
+}
 
+.sri   {
+    font-weight: 900;
+    font-size: 40px;
+    padding: 0px;
+}
+.box {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    border: 5px #8458B3 solid;
+}
 
+.quote {
+    background-color: #e6e6e6;
+    padding: 30px 500px;
+}
 
+h2 {
+    text-align: right;
+}
 
+.quotetext {
+    font-size: 30px;
+}
 
+.cta {
+    background-color: #8458B3;
+    margin: 50px 460px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.cta button {
+    border: white 3px solid;
+    height: 30px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+}
 
+.leftcta {
+    margin-left: 70px;
+}
 
+.leftcta h1 {
+    margin-bottom: 0px;
+}
+.leftcta p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
 
+footer {
+    background-color: #494d5f;
+    height: 60px;
+    color: white;
+    line-height: 60px;
+    text-align: center;
+}
 
 
 
